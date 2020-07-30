@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace web
 {
-  public class Catalogo
+  public class Catalogo : ICatalogo
   {
     public List<Livro> GetLivros()
     {
